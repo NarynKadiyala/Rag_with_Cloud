@@ -1,7 +1,7 @@
 import os
 import boto3
 import streamlit as st
-from langchain.llms.bedrock import Bedrock
+from langchain_community.llms import Bedrock
 from langchain.embeddings import BedrockEmbeddings
 from langchain.document_loaders import PyPDFDirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
